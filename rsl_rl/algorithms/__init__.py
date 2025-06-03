@@ -31,3 +31,4 @@
 from .ppo import PPO
 from .ppo_sym import PPOSym
 from .supervised_learning import SupervisedLearning
+from .supervised_learning import SupervisedTrainer

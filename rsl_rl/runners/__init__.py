@@ -29,11 +29,13 @@
 # Copyright (c) 2021 ETH Zurich, Nikita Rudin
 
 from .on_policy_runner import OnPolicyRunner
+from .on_policy_runner_symmetry import OnPolicyRunnerSymmetry
 from .on_policy_runner_ee import OnPolicyRunnerEE
 from .on_policy_runner_ee_symmetry import OnPolicyRunnerEESymmetry
 
 from rsl_rl.utils.runner_registry import runner_registry
 
 runner_registry.register("OnPolicyRunner", OnPolicyRunner)
+runner_registry.register("OnPolicyRunnerSymmetry", OnPolicyRunnerSymmetry)
 runner_registry.register("OnPolicyRunnerEE", OnPolicyRunnerEE)
 runner_registry.register("OnPolicyRunnerEESymmetry", OnPolicyRunnerEESymmetry)

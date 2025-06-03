@@ -30,4 +30,5 @@
 
 from .actor_critic import ActorCritic
 from .actor_critic_recurrent import ActorCriticRecurrent
+from .mlp import MLP
 from .estimator import Estimator

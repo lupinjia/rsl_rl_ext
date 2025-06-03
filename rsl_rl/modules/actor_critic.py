@@ -150,6 +150,8 @@ def get_activation(act_name):
         return nn.Tanh()
     elif act_name == "sigmoid":
         return nn.Sigmoid()
+    elif act_name == "softsign":
+        return nn.Softsign()
     else:
         print("invalid activation function!")
         return None

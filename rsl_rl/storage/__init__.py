@@ -3,3 +3,4 @@
 
 from .rollout_storage import RolloutStorage
 from .estimator_buffer import EstimatorBuffer
+from .regression_data import RegressionData
